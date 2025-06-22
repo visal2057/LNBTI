@@ -35,6 +35,12 @@ Route::get('/cart', function () {
 Route::get('/login', function () { 
     return view('login'); 
 });
+Route::get('/checkout', function () { 
+    return view('checkout'); 
+});
+Route::get('/action1', function () { 
+    return view('action1'); 
+});
 
 use App\Http\Controllers\ContactController;
 
