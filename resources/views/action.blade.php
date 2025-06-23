@@ -102,9 +102,9 @@
             <div class="row g-4">
                 <div class="col-md-4">
                     <div class="card card-horizontal">
-                        <a href="{{url('/action1')}}"><img src="{{asset('images/ac1.png')}}" class="img-fluid" alt="Silent Shadow"></a>
+                        <img src="{{asset('images/ac1.png')}}" class="img-fluid" alt="Silent Shadow">
                         <div class="card-body">
-                            <h5 class="card-title">Silent Shadow</h5>
+                            <a href="{{url('/action1')}}"><h5 class="card-title">Silent Shadow</h5></a>
                             <p class="card-text">Author: Elena Voss</p>
                             <p class="card-text"><strong>Price: $12.99</strong></p>
                             <div class="mb-2">
