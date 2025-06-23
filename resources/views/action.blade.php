@@ -125,9 +125,9 @@
 
                 <div class="col-md-4">
                     <div class="card card-horizontal">
-                        <img src="{{asset('images/ac2.png')}}" class="img-fluid" alt="Rogue Strike">
+                        <img src="{{asset('images/ac2.png')}}" class="img-fluid" alt="Rogue Strike"></a>
                         <div class="card-body">
-                            <h5 class="card-title">Rogue Strike</h5>
+                            <a href ="{{url('/action2')}}"><h5 class="card-title">Rogue Strike</h5></a>
                             <p class="card-text">Author: Marcus Kane</p>
                             <p class="card-text"><strong>Price: $12.99</strong></p>
                             <div class="mb-2">
@@ -144,166 +144,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card card-horizontal">
-                        <img src="{{asset('images/ac3.png')}}" class="img-fluid" alt="The Heist Protocol">
-                        <div class="card-body">
-                            <h5 class="card-title">The Heist Protocol</h5>
-                            <p class="card-text">Author: Daniel Cross</p>
-                            <p class="card-text"><strong>Price: $12.99</strong></p>
-                            <div class="mb-2">
-                                <label for="quantity-heist-protocol" class="form-label">Quantity:</label>
-                                <input type="number" id="quantity-heist-protocol" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-                            </div>
-                            <div class="d-flex justify-content-end gap-2">
-                                <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                                    <i class="bi bi-cart"></i> Add to Cart
-                                </a>
-                                <a href="#" class="btn btn-success btn-sm direct-checkout">
-                                    <i class="bi bi-cash-coin"></i> Checkout
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/ac4.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Blood Mountain</h5>
-              <p class="card-text">Author: Sarah Kessler</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/ac5.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Ghost Operative</h5>
-              <p class="card-text">Author: Jake Mercer</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/ac6.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Kill Switch</h5>
-              <p class="card-text">Author: Tessa Cole</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/ac7.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">No Exit</h5>
-              <p class="card-text">Author: Ryan Slade</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/ac8.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Deep Cover Zero</h5>
-              <p class="card-text">Author: Lena Roth</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/ac9.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Savage Coast</h5>
-              <p class="card-text">Author: Dean Holt</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-
-                
+                </div>          
             </div>
         </div>
     </div>

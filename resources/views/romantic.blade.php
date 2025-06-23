@@ -105,7 +105,7 @@
           <div class="card card-horizontal">
             <img src="{{asset('images/r3.png')}}" class="img-fluid" alt="...">
             <div class="card-body">
-              <h5 class="card-title">The Kiss Quotient</h5>
+              <a href="{{url('/romantic1')}}"><h5 class="card-title">The Kiss Quotient</h5></a>
               <p class="card-text">Helen Hoang</p>
               <p class="card-text"><strong>Price: $12.99</strong></p>
               <div class="mb-2">
@@ -128,7 +128,7 @@
           <div class="card card-horizontal">
             <img src="{{asset('images/r1.png')}}" class="img-fluid" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Beach Read</h5>
+              <a href="{{url('/romantic2')}}"><h5 class="card-title">Beach Read</h5></a>
               <p class="card-text">Emily Henry</p>
               <p class="card-text"><strong>Price: $12.99</strong></p>
               <div class="mb-2">
@@ -147,165 +147,7 @@
           </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/r2.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">A Court of Thorns and Roses</h5>
-              <p class="card-text">Sarah J. Maas</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/r4.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">The Hating Game"</h5>
-              <p class="card-text">Sally Thorne</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/r5.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Outlander</h5>
-              <p class="card-text"> Diana Gabaldon</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/r6.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Bridgerton: The Duke and I</h5>
-              <p class="card-text">Julia Quinn</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/r7.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">The Love Hypothesis</h5>
-              <p class="card-text"> Ali Hazelwood</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/r8.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">People We Meet on Vacation</h5>
-              <p class="card-text">Emily Henry</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/r9.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">The Royal Affair</h5>
-              <p class="card-text">Clara Kensington</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
         
-
       </div>
     </div>
     

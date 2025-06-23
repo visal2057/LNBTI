@@ -96,7 +96,7 @@
           <div class="card card-horizontal">
             <img src="{{asset('images/h1.png')}}" class="img-fluid" alt="...">
             <div class="card-body">
-              <h5 class="card-title">The Siege of Lions</h5>
+              <a href="history1"><h5 class="card-title">The Siege of Lions</h5></a>
               <p class="card-text">Sebastian Graves</p>
               <p class="card-text"><strong>Price: $12.99</strong></p>
               <div class="mb-2">
@@ -119,7 +119,7 @@
           <div class="card card-horizontal">
             <img src="{{asset('images/h2.png')}}" class="img-fluid" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Empire of Ashes</h5>
+              <a href="{{url('/history2')}}"><h5 class="card-title">Empire of Ashes</h5></a>
               <p class="card-text">Livia Blackwood</p>
               <p class="card-text"><strong>Price: $12.99</strong></p>
               <div class="mb-2">
@@ -137,166 +137,6 @@
             </div>
           </div>
         </div>
-
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/h3.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">The Silk Road Assassin</h5>
-              <p class="card-text">Jian Wei</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/h4.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">The Queen’s Shadow</h5>
-              <p class="card-text">Eleanor Hart</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/h5.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Iron & Gunpowder</h5>
-              <p class="card-text">Nathaniel Pike</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/h6.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Gladiator’s Oath</h5>
-              <p class="card-text">Mikhail Petrov</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/h7.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">The Winter Partisans</h5>
-              <p class="card-text">Marcus Aurelius Varro</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/h8.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">The Samurai’s Heart</h5>
-              <p class="card-text">Hiroshi Tanaka</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-horizontal">
-            <img src="{{asset('images/h9.png')}}" class="img-fluid" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">The Lost Legion</h5>
-              <p class="card-text">Claudia Marcellus</p>
-              <p class="card-text"><strong>Price: $12.99</strong></p>
-              <div class="mb-2">
-                <label for="quantity-silent-shadow" class="form-label">Quantity:</label>
-                <input type="number" id="quantity-silent-shadow" name="quantity" value="1" min="1" class="form-control form-control-sm w-50 text-center">
-              </div>
-                <div class="d-flex justify-content-end gap-2">
-                  <a href="#" class="btn btn-outline-primary btn-sm add-to-cart">
-                    <i class="bi bi-cart"></i> Add to Cart
-                  </a>
-                  <a href="#" class="btn btn-success btn-sm direct-checkout">
-                    <i class="bi bi-cash-coin"></i> Checkout
-                  </a>
-                </div>
-            </div>
-          </div>
-        </div>
-        
-
       </div>
     </div>
     

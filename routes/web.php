@@ -41,6 +41,22 @@ Route::get('/checkout', function () {
 Route::get('/action1', function () { 
     return view('action1'); 
 });
+Route::get('/action2', function () { 
+    return view('action2'); 
+});
+Route::get('/history1', function () { 
+    return view('history1'); 
+});Route::get('/history2', function () { 
+    return view('history2'); 
+});Route::get('/romantic1', function () { 
+    return view('romantic1'); 
+});Route::get('/romantic2', function () { 
+    return view('romantic2'); 
+});Route::get('/sci-fi1', function () { 
+    return view('sci-fi1'); 
+});Route::get('/sci-fi2', function () { 
+    return view('sci-fi2'); 
+});
 
 use App\Http\Controllers\ContactController;
 
